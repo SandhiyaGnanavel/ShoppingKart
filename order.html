@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="./order.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">Shopping Kart</div>
+         <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        ☰
+    </label>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="women.html">Women</a>
+        <a href="men.html">Men</a>
+        <a href="kids.html">Kids</a>
+        <a href="order.html" class="active">Orders</a>
+    </nav>
+</header>
+<div class="form-container">
+    <h2>Order Details</h2>
+
+    <form>
+        <!-- User Details -->
+        <div class="section">
+            <h3>User Information</h3>
+
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name">
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+
+            <div class="input-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter your phone number">
+            </div>
+
+            <div class="input-group">
+                <label>Address</label>
+                <textarea placeholder="Enter your delivery address"></textarea>
+            </div>
+        </div>
+
+        <!-- Order Info -->
+        <div class="section">
+            <h3>Order Information</h3>
+
+            <div class="input-group">
+                <label>Product Name</label>
+                <input type="text" placeholder="Enter product name">
+            </div>
+
+            <div class="input-group">
+                <label>Quantity</label>
+                <input type="number" placeholder="Enter quantity">
+            </div>
+
+            <div class="input-group">
+                <label>Payment Method</label>
+                <select>
+                    <option value="">Select payment method</option>
+                    <option>UPI</option>
+                    <option>Credit Card</option>
+                    <option>Cash on Delivery</option>
+                </select>
+            </div>
+        </div>
+
+        <button type="submit">Place Order</button>
+    </form>
+</div>
+<footer>
+    © 2025 Shopping Kart
+</footer>
+
+</body>
+</html>
