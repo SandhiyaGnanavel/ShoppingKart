@@ -26,7 +26,6 @@ html, body {
     font-size: 26px;
     font-weight: bold;
 }
-
 .navbar nav a {
     color: #fff;
     text-decoration: none;
@@ -43,7 +42,7 @@ html, body {
     height: 90vh;
     /* background: url('./images/mall-america-scenes-cinematic-style.jpg'); */
     /* background-image: url('./images/cinematic-style-mall.jpg'); */
-    background-image: url('./images/Background1.jpg');
+    background-color:url('../images/Background1.jpg');
     background-size: cover;
     background-position:center;
     display: flex;
